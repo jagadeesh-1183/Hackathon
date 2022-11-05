@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Register Form | Webpage </title>
+        <style>
+            h1
+            {
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(0, 0, 0);
+            }
+            h3
+            {
+                color: rgb(0, 0, 0);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .Background
+            {
+                height: 100%;
+                width: 100%;   
+            }
+            body 
+            {
+                background-color: rgb(252, 247, 0);
+            }
+            .Form
+            {
+                position: absolute;
+                left : 40px;
+                color: rgb(0, 0, 0);
+                border-style: dotted;
+                width: 500px;
+                background-color: rgb(226, 30, 112);
+            }
+            #box
+            {
+                border-radius: 5px;
+            }
+            button
+            {
+                font-family: cursive;
+                cursor: pointer;
+            }     
+        </style>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <h3>ENTER YOUR DETAILS</h3>
+        <div class="Form">
+            <b>First Name</b> <br><input id="box" type="text" name="First_Name" placeholder="Firstname"> <br><br>
+            <b>Last Name</b> <br><input id="box" type="text" name="Last_Name" placeholder="Lastname"> <br><br>
+            <b>Mobile Number </b><br><input id="box" type="tel" name="Number" placeholder="Mobile Number"> <br><br>
+            <b>Email</b> <br><input id="box" type="email" name="Email" placeholder="Email ID"> <br><br>
+            <b>Country</b>&nbsp;
+            <select id="box" name="Country" id="Country">
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="America">America</option>
+            </select><br><br>
+            <b>Role</b>&nbsp;<input id="box" type ="radio" name="Role" value="Student">Student <input type ="radio" name="Role" value="Staff">Staff <br><br>
+            <b>D.O.B </b><br><input id="box" type="date" name="DOB" placeholder="Date of Birth"> <br><br>    
+            <b>New Password</b> <br><input id="box" type="password" name="New Password" placeholder="New Password"> <br><br>
+            <b>Confirm Password</b> <br><input id="box" type="password" name="Confirm Password" placeholder="Confirm Password"> <br><br>
+            <input type="checkbox" name="Tick"> Terms and Conditions <br><br>
+            <button type="button">SUBMIT</button>
+        </div>    
+    </body>  
+</html>
